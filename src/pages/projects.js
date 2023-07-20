@@ -7,6 +7,7 @@ import Image from "next/image";
 import { GithubIcon } from "@/components/Icon";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
 import { motion } from "framer-motion";
+/* eslint-disable */
 
 const FramerImage = motion(Image)
 

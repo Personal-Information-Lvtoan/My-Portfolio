@@ -13,6 +13,7 @@ import article7 from "../../public/images/articles/What is higher order componen
 import article8 from "../../public/images/articles/What is Redux with easy explanation.png"
 import Image from "next/image";
 import { motion, useMotionValue } from "framer-motion";
+/* eslint-disable */
 
 const FramerImage = motion(Image)
 

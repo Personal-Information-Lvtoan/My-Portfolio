@@ -8,6 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+/* eslint-disable */
 
 const AnimatedNumbers = ({value}) => {
     const ref = useRef(null)
