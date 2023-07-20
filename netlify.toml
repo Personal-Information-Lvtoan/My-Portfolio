@@ -6,5 +6,5 @@ package = "@netlify/plugin-nextjs"
 
 [[redirects]]
 from = "/*"
-to = "/src/pages/_app.js"
+to = "/src/pages/index.js"
 status = 200
