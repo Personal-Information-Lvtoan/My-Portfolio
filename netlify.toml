@@ -1,6 +1,6 @@
 [build]
   base = "/"
-  publish = "dist/"
+  publish = ".next"
   command = "npm run build"
 
 [build.environment]
@@ -13,4 +13,4 @@ package = "@netlify/plugin-nextjs"
 [dev]
     command = "npm run dev"
     port = 3000
-    public = "dist"
+    public = ".next"
