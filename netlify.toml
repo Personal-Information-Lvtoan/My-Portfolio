@@ -4,7 +4,5 @@ NETLIFY_NEXT_PLUGIN_SKIP = "true"
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
-[[redirects]]
-from = "/*"
-to = "/src/pages/index.js"
-status = 200
+[context.deploy-preview]
+  publish = "dist/"
