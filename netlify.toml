@@ -1,8 +1,16 @@
+[build]
+  publish = "dist/"
+
+  command = "npm build"
+
 [build.environment]
 NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
 
-[context.deploy-preview]
-  publish = "dist/"
+
+[dev]
+    command = "npm run dev"
+    port = 3000
+    public = "dist
