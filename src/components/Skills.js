@@ -37,15 +37,19 @@ const Skills = () => {
                     Web
                 </motion.div>
                 <Skill name={"HTML"} x={"-25vw"} y={"2vw"} />
+                <Skill name={"Agile-Scrum"} x={"-15vw"} y={"10vw"} />
                 <Skill name={"CSS"} x={"-5vw"} y={"-10vw"} />
-                <Skill name={"Javascript"} x={"20vw"} y={"6vw"} />
-                <Skill name={"ReactJS"} x={"0vw"} y={"12vw"} />
-                <Skill name={"NextJS"} x={"-20vw"} y={"-15vw"} />
-                <Skill name={"GastbyJS"} x={"15vw"} y={"-12vw"} />
-                <Skill name={"Web Desigh"} x={"32vw"} y={"-5vw"} />
-                <Skill name={"Figma"} x={"0vw"} y={"-20vw"} />
-                <Skill name={"Firebase"} x={"-25vw"} y={"18vw"} />
-                <Skill name={"Tailwind CSS"} x={"18vw"} y={"18vw"} />
+                <Skill name={"Bootstrap"} x={"-35vw"} y={"-5vw"} />
+                <Skill name={"Javascript"} x={"25vw"} y={"10vw"} />
+                <Skill name={"NestJS"} x={"0vw"} y={"12vw"} />
+                <Skill name={"Spring Framework"} x={"-20vw"} y={"-15vw"} />
+                <Skill name={"Typescript"} x={"15vw"} y={"-12vw"} />
+                <Skill name={"Microsersive"} x={"32vw"} y={"-5vw"} />
+                <Skill name={"Database"} x={"0vw"} y={"-20vw"} />
+                <Skill name={"Java"} x={"-25vw"} y={"18vw"} />
+                <Skill name={"ASP.NET"} x={"18vw"} y={"4vw"} />
+                <Skill name={"Firebase"} x={"10vw"} y={"17vw"} />
+                <Skill name={"Wordpress"} x={"-10vw"} y={"22vw"} />
             </div>
         </>
         

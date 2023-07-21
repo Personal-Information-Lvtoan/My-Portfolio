@@ -47,22 +47,10 @@ const Education = () => {
 
                 <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
                     <Details 
-                        type={"Bachelor Of Science In Computer Science"}
-                        time={"2016-2020"} place={"Massachusetts Institute Of Technology (MIT)"}
-                        info={`Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.`}
-                    />
-                    <Details 
-                        type={"Bachelor Of Science In Computer Science"}
-                        time={"2016-2020"} place={"Massachusetts Institute Of Technology (MIT)"}
-                        info={`Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.`}
-                    />
-                    <Details 
-                        type={"Bachelor Of Science In Computer Science"}
-                        time={"2016-2020"} place={"Massachusetts Institute Of Technology (MIT)"}
-                        info={`Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                        Intelligence.`}
+                        type={"Bachelor In Software Technology"}
+                        time={"8/2018-5/2023"} place={"Industrial University of HoChiMinh city (IUH)"}
+                        info={`Relevant courses included Data Structures and Algorithms, Architecture 
+                        and Design Software, and Object Oriented Programming.`}
                     />
                 </ul>
             </div>
