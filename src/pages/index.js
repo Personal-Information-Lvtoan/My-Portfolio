@@ -8,6 +8,7 @@ import Link from 'next/link'
 import { LinkArrow } from '@/components/Icon'
 import HireMe from '@/components/HireMe'
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
+/* eslint-disable */
 
 const inter = Inter({ subsets: ['latin'] })
 
