@@ -8,16 +8,15 @@ const Footer = () => {
         font-medium text-lg dark:text-light dark:border-light
         sm:text-base">
             <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
-                <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
+                <span></span>
                 <div className="flex items-center lg:py-2">
-                    Build With <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span> 
-                    by&nbsp;<Link href="https://devdreaming.com" className="underline
+                    Gmail:&nbsp;<Link href="mailto:lvtoan.cv@gmail.com" className="underline
                     underline-offset-2">
-                        CodeBucks</Link>  
+                        lvtoan.cv@gmail.com</Link>  
                 </div>
-                <Link href="https://devdreaming.com" target={"_blank"} 
+                <Link href="tel:0819490540" target={"_blank"} 
                 className="underline underline-offset-2"
-                >Say hello</Link>
+                >08.1949.0540</Link>
             </Layout>
         </footer>
     )
