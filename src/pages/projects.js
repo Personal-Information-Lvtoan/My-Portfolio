@@ -6,6 +6,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icon";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import project2 from "../../public/images/projects/ecard.png"
+import project3 from "../../public/images/projects/lambdabuy.png"
+import project4 from "../../public/images/projects/wordpress.png"
 import { motion } from "framer-motion";
 /* eslint-disable */
 
@@ -102,7 +105,8 @@ const projects = () => {
                     className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
 
                     <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-                        <div className="col-span-12">
+                        
+{/**                       <div className="col-span-12">
                             <FeaturedProject 
                                 title={"Crypto Screener Application"}
                                 img={project1}
@@ -114,66 +118,47 @@ const projects = () => {
                                 type={"Featured Project"}
                             />
                         </div>
+*/} 
                         <div className="col-span-6 sm:col-span-12">
                             <Project 
-                                title={"Crypto Screener Application"}
-                                img={project1}
-                                sumary={`A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.`}
-                                link={"/"}
-                                github={"/"}
-                                type={"Featured Project"}
+                                title={"Ecard Server Application"}
+                                img={project2}
+                                sumary={`BUILD PROJECT
+                                USING NESTJS FRAMEWORK,
+                                TYPESCRIPT CONNECT POSTGRESQL
+                                BUILD API ON SWAGGER INSPECTOR
+                                DEPLOY TO DOCKER.`}
+                                link={"https://github.com/PROJECT-ECARD/Ecard-Server.git"}
+                                github={"https://github.com/PROJECT-ECARD/Ecard-Server.git"}
+                                type={"Project"}
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project 
-                                title={"Crypto Screener Application"}
-                                img={project1}
-                                sumary={`A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.`}
-                                link={"/"}
-                                github={"/"}
-                                type={"Featured Project"}
+                                title={"LambdaBuy Ecommerce"}
+                                img={project3}
+                                sumary={`LambdaBuy Ecommerce í a module include API, Desktop and Website.
+                                Using Spring Boot to build API, Thymeleaf Template to build UI and connect to MySQL database.
+                                About Desktop using Java Swing to build UI`}
+                                link={"https://github.com/KLTN-NHOM12-TOAN/LambdaBuy-Ecommerce.git"}
+                                github={"https://github.com/KLTN-NHOM12-TOAN/LambdaBuy-Ecommerce.git"}
+                                type={"Project"}
                             />
                         </div>
                         
-                        <div className="col-span-12">
-                            <FeaturedProject 
-                                title={"Crypto Screener Application"}
-                                img={project1}
-                                sumary={`A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.`}
-                                link={"/"}
-                                github={"/"}
-                                type={"Featured Project"}
-                            />
-                        </div>
                         <div className="col-span-6 sm:col-span-12">
                             <Project 
-                                title={"Crypto Screener Application"}
-                                img={project1}
-                                sumary={`A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.`}
-                                link={"/"}
-                                github={"/"}
-                                type={"Featured Project"}
+                                title={"Wordpress Shop"}
+                                img={project4}
+                                sumary={`Project uses pakage provided by Worpress to build Wordpress Shop system.
+                                Using Flatsome theme to build and config CMS system combine with Elementor and WooCommerce to buid UI for project.`}
+                                link={"https://github.com/LeVanToan-it/Wordpress-Shop.git"}
+                                github={"https://github.com/LeVanToan-it/Wordpress-Shop.git"}
+                                type={"Project"}
                             />
                         </div>
                         <div className="col-span-6 sm:col-span-12">
-                        <Project 
-                            title={"Crypto Screener Application"}
-                            img={project1}
-                            sumary={`A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency.`}
-                            link={"/"}
-                            github={"/"}
-                            type={"Featured Project"}
-                        />
+                        
                         </div>
                     </div>
 
