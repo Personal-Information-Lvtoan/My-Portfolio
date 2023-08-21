@@ -3,6 +3,7 @@
 This repository contains my personal information <br />
 
 For visualization, please checkout following link👇: <br />
+
 [My Portfolio Website](https://portfolio-dev-lvtoan.netlify.app/) <br />
 
 ### Images of My Portfolio Website:
@@ -18,7 +19,6 @@ For visualization, please checkout following link👇: <br />
 ![Responsive Portfolio Mobile In Next js](https://github.com/Personal-Information-Lvtoan/My-Portfolio/blob/main/public/images/dashboards/about-light-mobile.jpg)
 ![Responsive Portfolio Mobile In Next.js](https://github.com/Personal-Information-Lvtoan/My-Portfolio/blob/main/public/images/dashboards/project-light-mobile.jpg)
 ![Responsive Portfolio Mobile In Next.js](https://github.com/Personal-Information-Lvtoan/My-Portfolio/blob/main/public/images/dashboards/artical-light-mobile.jpg)
-
 
 ### Resources Used in This Project
 
